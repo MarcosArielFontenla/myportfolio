@@ -1,0 +1,32 @@
+.footer {
+    background: #eef1f2;
+    color: rgba(0, 0, 0, .25);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 0;
+
+    .footer-email {
+        text-transform: lowercase;
+        margin: 10px 0;
+    }
+}
+
+.social-links {
+    display: block;
+
+    .icon-social {
+        width: 24px;
+        height: 24px;
+        margin: 10px 30px;
+        transform: rotate(0);
+        transition: 0.4s;
+    }
+
+    .icon-social:hover {
+        transform: rotate(360deg);
+        transition: 0.4s;
+    }
+}
